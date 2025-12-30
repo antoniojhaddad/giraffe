@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Pricing – Website Monitoring SaaS</title>
+  <meta name="description" content="Pricing plans for our website uptime monitoring and availability verification service." />
+  <style>
+    :root { --bg:#0b1220; --card:#121a2b; --text:#eaf0ff; --muted:#a9b4d0; --accent:#6aa8ff; }
+    *{box-sizing:border-box}
+    body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    a{color:var(--accent);text-decoration:none}
+    .wrap{max-width:900px;margin:0 auto;padding:48px 20px}
+    h1{margin:0 0 10px;font-size:32px}
+    p{color:var(--muted);line-height:1.6}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:16px;margin-top:28px}
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:20px}
+    .price{font-size:28px;font-weight:700;margin:10px 0}
+    ul{padding-left:18px}
+    li{margin:6px 0}
+    .back{margin-top:24px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Pricing</h1>
+    <p>Choose the plan that fits your monitoring needs. All plans are billed monthly.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h2>Starter</h2>
+        <div class="price">$9 / month</div>
+        <ul>
+          <li>Up to 10 monitors</li>
+          <li>1-minute check interval</li>
+          <li>Email alerts</li>
+          <li>30 days history</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Pro</h2>
+        <div class="price">$29 / month</div>
+        <ul>
+          <li>Up to 50 monitors</li>
+          <li>1-minute check interval</li>
+          <li>Email & webhook alerts</li>
+          <li>90 days history</li>
+          <li>Public status page</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Business</h2>
+        <div class="price">$99 / month</div>
+        <ul>
+          <li>Up to 200 monitors</li>
+          <li>30-second check interval</li>
+          <li>Email, webhook & SMS alerts</li>
+          <li>Unlimited history</li>
+          <li>Custom domain status page</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="back">
+      <a href="./index.html">← Back to home</a>
+    </div>
+  </div>
+</body>
+</html>
