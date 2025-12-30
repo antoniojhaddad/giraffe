@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Seu SaaS — Monitoramento de Sites</title>
+  <meta name="description" content="SaaS de monitoramento de uptime: verificações automáticas, alertas por e-mail e webhooks, histórico e status page." />
+  <style>
+    :root { --bg:#0b1220; --card:#121a2b; --text:#eaf0ff; --muted:#a9b4d0; --accent:#6aa8ff; }
+    *{box-sizing:border-box} body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--text)}
+    a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+    .wrap{max-width:920px;margin:0 auto;padding:48px 20px}
+    .hero{background:linear-gradient(180deg,rgba(106,168,255,.18),transparent);border:1px solid rgba(255,255,255,.08);border-radius:18px;padding:28px}
+    h1{margin:0 0 10px;font-size:34px;letter-spacing:-.02em}
+    p{margin:0 0 14px;color:var(--muted);line-height:1.6}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin-top:18px}
+    .card{background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:16px;padding:18px}
+    .card h3{margin:0 0 8px;font-size:16px}
+    .tag{display:inline-block;font-size:12px;padding:6px 10px;border-radius:999px;background:rgba(106,168,255,.15);border:1px solid rgba(106,168,255,.35);color:var(--text);margin-right:8px}
+    .nav{display:flex;flex-wrap:wrap;gap:12px;margin-top:16px}
+    .btn{display:inline-block;padding:10px 14px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10)}
+    footer{margin-top:26px;color:var(--muted);font-size:13px}
+    hr{border:0;border-top:1px solid rgba(255,255,255,.08);margin:18px 0}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <span class="tag">Uptime</span>
+      <span class="tag">Alertas</span>
+      <span class="tag">Webhooks</span>
+
+      <h1>Monitoramento de sites (SaaS)</h1>
+      <p>
+        Plataforma para verificar se sites e endpoints estão ativos, com verificações automáticas,
+        alertas por e-mail e webhooks, histórico e planos por limites.
+      </p>
+
+      <div class="nav">
+        <a class="btn" href="./pricing.html">Pricing</a>
+        <a class="btn" href="./terms.html">Terms of Service</a>
+        <a class="btn" href="./privacy.html">Privacy Policy</a>
+        <a class="btn" href="./refund.html">Refund Policy</a>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="card">
+        <h3>O que você vende</h3>
+        <p>Assinaturas mensais para monitoramento de uptime, com limites por plano (monitores, intervalos e webhooks).</p>
+      </div>
+      <div class="card">
+        <h3>Funcionalidades</h3>
+        <p>Checks automáticos, alertas, webhooks, histórico, e (em planos maiores) status page e múltiplos usuários.</p>
+      </div>
+      <div class="card">
+        <h3>Contato</h3>
+        <p>Adicione aqui um e-mail de suporte quando tiver (ex: suporte@seudominio.com).</p>
+      </div>
+    </div>
+
+    <hr />
+
+    <footer>
+      © <span id="y"></span> Seu SaaS. Todos os direitos reservados.
+    </footer>
+  </div>
+
+  <script>
+    document.getElementById('y').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
